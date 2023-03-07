@@ -1,0 +1,76 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to bottom Right, #6a59ff, #fbc7d4);
+  min-height: 100vh;
+}
+.actual-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game-card-container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 800px;
+  height: 600px;
+  list-style-type: none;
+  padding: 20px;
+}
+.win-or-lose-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 800px;
+  height: 600px;
+}
+
+@media screen and (max-width: 769px) {
+  .game-card-container {
+    margin-top: 20px;
+    width: 400px;
+    height: 450px;
+  }
+  .win-or-lose-container {
+    display: flex;
+
+    width: 500px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-container {
+    background-image: linear-gradient(to bottom Right, #6a59ff, #fbc7d4);
+    min-height: 100vh;
+  }
+  .actual-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+  }
+  .game-card-container {
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    width: 100vw;
+    height: 400px;
+    list-style-type: none;
+
+    padding: 10px;
+  }
+  .win-or-lose-container {
+    margin-top: 50px;
+    justify-content: center;
+    width: 80%;
+
+    align-self: center;
+  }
+}

@@ -1,0 +1,148 @@
+.card-container {
+  background-color: #ffffff33;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 30px;
+  border-color: #ffffff30;
+}
+.result-score-play-again-container {
+  display: flex;
+  align-items: center;
+}
+
+.win-r-lose {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.score-title {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.score-in-nums {
+  font-size: 30px;
+  font-weight: 700;
+  color: #6a59ff;
+  margin-top: 0px;
+  margin-bottom: opx;
+}
+.PlayAgainButton {
+}
+.image-container {
+}
+.result-image-with-emojibaloons {
+  margin-left: 150px;
+  margin-right: 10pxs;
+}
+.button-and-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PlayAgainButton {
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #ffce27;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0px;
+  font-family: 'roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    background-color: #ffffff33;
+    width: 100%;
+    align-self: center;
+    display: flex;
+
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 30px;
+    border-color: #ffffff30;
+  }
+  .result-score-play-again-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .win-r-lose {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  .score-container {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  .score-title {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  .score-in-nums {
+    font-size: 30px;
+    font-weight: 700;
+    color: #6a59ff;
+    margin-top: 0px;
+  }
+  .PlayAgainButton {
+  }
+  .image-container {
+    order: 2;
+    margin-bottom: 30px;
+  }
+  .result-image-with-emojibaloons {
+    margin-right: 10px;
+
+    margin-left: 10px;
+    height: 210px;
+    order: 0;
+  }
+  .button-and-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .PlayAgainButton {
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #ffce27;
+    font-size: 17px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+
+    font-family: 'roboto';
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .result-score-play-again-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    order: 0;
+    align-items: center;
+  }
+}
